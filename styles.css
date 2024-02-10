@@ -1,5 +1,10 @@
 *{
-    background-color: #2B3BE5;
+    
+    font-family: "Passion One", sans-serif;
+}
+
+.fullpage {
+    background-image: linear-gradient(to bottom right, #2B3BE5, #C63093);
 }
 
 .header {
@@ -21,6 +26,7 @@
     width: 10%;
     height: 10%;
     border-radius: 10px;
+    cursor: pointer;
 }
 
 .fa-bars{
@@ -62,7 +68,7 @@
     font-size: 100px;
     font-family: "Passion One", sans-serif;
     color: white;
-    text-align: center;
+    text-align: left;
     margin-bottom: 5px;
 }
 
@@ -87,6 +93,25 @@
     color: black;
 }
 
+.nav {
+    cursor: pointer;
+}
+
+.menuico {
+    cursor: pointer;
+}
+
+.actionbutton {
+    background-color: white;
+    height: 50px;
+    width: 200px;
+    border: solid  #C63093;
+    border-width: 3px;
+    border-radius: 15px;
+    font-weight: bold;
+    font-size: 15px;
+    cursor: pointer;
+}
 
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Passion+One:wght@400;700;900&family=Yantramanav:wght@100;300;400;500;700;900&display=swap')
 
