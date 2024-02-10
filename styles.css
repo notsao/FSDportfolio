@@ -13,7 +13,7 @@
 }
 
 .titleheader {
-    font-family: "Josefin Sans", sans-serif;
+    font-family: "Passion One", sans-serif;
     color: white;
 }
 
@@ -48,22 +48,45 @@
     background-color: white;
     padding: 20px;
     border-radius: 20px;
-    font-family: "Josefin Sans", sans-serif;
+    font-family: "Passion One", sans-serif;
+    font-size: 25px;
 }
 
 .bodytexthousing {
     padding: 20px;
-    text-align: center;
-    color: rgb(0, 0, 0);
-    font-family: "Josefin Sans", sans-serif;
     width: 30% 
+
 }
 
-.footer{
-    background-color: white;
-}
-.footerinfo{
+.titlebody1 {
+    font-size: 100px;
+    font-family: "Passion One", sans-serif;
+    color: white;
     text-align: center;
-    background-color: white;
+    margin-bottom: 5px;
 }
-@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap')
+
+.subtextbody1 {
+    color: white;
+    font-family: "Passion One", sans-serif;
+    text-align: left;
+    margin-top: 0px;
+}
+
+.footer {
+    background-color: #ffffff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    text-align: center;
+    margin-right: 20px;
+  }
+
+.footerinfo {
+    background: white;
+    color: black;
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Passion+One:wght@400;700;900&family=Yantramanav:wght@100;300;400;500;700;900&display=swap')
+
