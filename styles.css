@@ -1,8 +1,9 @@
+*{
+    background-color: #2B3BE5;
+}
+
 .header {
-    border: solid;
-    border-width: 5px;
     text-align: center;
-    border-color: red;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -13,8 +14,10 @@
 .logoheader {
     width: 10%;
     height: 10%;
+    border-radius: 10px;
 }
 
 .fa-bars{
     font-size: 30px;
+    margin: 20px;
 }
